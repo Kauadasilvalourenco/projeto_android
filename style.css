@@ -1,0 +1,159 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid/IDroid.otf') format('opentype');
+}
+
+header{
+    background-image: linear-gradient(to bottom, #3CD782, #1C633B);
+    margin-top: -21px;
+    border-radius: 0px 0px 5px 5px;
+    padding: 40px 10px 10px 10px;
+}
+
+header > h1{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    text-shadow: 3px 3px 5px #00000080;
+    padding: 0px 0px 0px 10px;
+}
+
+header > p{
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    text-shadow: 3px 3px 5px #00000080;
+}
+
+nav > a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    text-shadow: 3px 3px 5px #00000080;
+}
+
+nav > a:hover{
+    font-size: 1.3em;
+    text-decoration: underline;
+    text-decoration-color: #3CD782;
+}
+
+nav > a::after{
+    content: none;
+}
+
+body{
+    background-color: #84E1AD;
+}
+
+main{
+    min-width: 270px;
+    max-width: 833px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px #00000080;
+}
+
+main h1{
+    font-size: 2.3em;
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+    color: #185A36;
+    padding: 0px 0px 0px 10px;
+}
+
+main h2{
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #b2f7cf, transparent);
+    color: #185A36;
+    padding: 0px 0px 0px 10px;
+}
+
+main p{
+    text-align: justify;
+    text-indent: 25px;
+    line-height: 1.7em;
+}
+
+div.video{
+    background-color: #185A36;
+    margin: 0px -10px 30px -10px;
+    padding: 10px 0px 64% 0px;
+    position: relative;
+
+}
+
+div.video iframe{
+    position: absolute;
+    top: 10%;
+    left: 6%;
+    width: 90%;
+    height: 80%;
+}
+
+a{
+    text-decoration: none;
+}
+
+a.palavra_especial{
+    color: #185A36;
+    font-weight: bold;
+}
+
+a.palavra_especial_rodape{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+a.palavra_especial_rodape::after{
+    content: none;
+}
+
+a::after{
+    content: '🔗';
+}
+
+img{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+img.imagem_pequena{
+    max-width: 350px;
+}
+
+aside{
+    background-color: #C5EBD6;
+    margin-top: 0px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px #00000080;
+}
+
+aside h3{
+    background-color: #2FA866;
+    padding: 5px;
+    border-radius: 7px 7px 0px 0px;
+    margin: -15px -10px 0px -10px;
+}
+
+/* 00A0 = Espaço entre o símbolo ✔ e o conteúdo da lista*/
+aside ul{
+    columns: 2;
+    list-style-type: '✔\00A0\00A0';
+}
+
+footer{
+    text-align: center;
+    color: #ffffff;
+    background-color: #1A5C38;
+}
